@@ -49,8 +49,8 @@ export function ShoppingCart() {
               <Image 
                 src={item.images[0].replace(/[\[\]\\"]/g, '')} 
                 alt={item.title}
-                width={196}
-                height={196}
+                width={190}
+                height={190}
                 priority
               />
               <span className={styles.title}>{item.title}</span>

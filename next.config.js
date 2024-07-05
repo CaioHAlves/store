@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
-    domains: ['https://i.imgur.com', 'i.imgur.com', 'placeimg.com'],
+    remotePatterns: [
+      {
+        hostname: '**',
+      },
+    ],
   }
 }
 

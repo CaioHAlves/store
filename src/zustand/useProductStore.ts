@@ -21,7 +21,7 @@ export interface Product {
 interface ProductStore {
   products: Array<Product>
   addProductCart: (products: Product) => void
-  title: string
+  title?: string
   setTitle: (title: string) => void
   removeProductCart: (id: number) => void,
   clearProducts: () => void
@@ -29,7 +29,6 @@ interface ProductStore {
 
 export const useProductStore = create<ProductStore>((set) => ({
   products: [],
-  title: "",
   addProductCart: (product: Product) => set((s) => {
     const findProduct = s.products.find(item => item.id === product.id)
 

@@ -53,9 +53,10 @@ const Home: NextPage = () => {
               <Image 
                 src={item.images[0].replace(/[\[\]\\"]/g, '')} 
                 alt={item.title}
-                width={196}
-                height={196}
+                width={190}
+                height={190}
                 priority
+                className={styles.img}
               />
               <span className={styles.title}>{item.title}</span>
               <span className={styles.price}>{item.price?.toLocaleString("pt-BR", { currency: 'BRL', style: "currency" })}</span>
