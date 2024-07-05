@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+}
+
+.fieldMenu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  border: 1px solid #5d5d5d;
+  background: #F7F7F7;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.price {
+  margin: auto 0 0 0;
+}
+
+.button {
+  margin: 5px 0 0 0;
+  background: #0000ff;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background: #2b2bc1;
+}
+
+.button svg {
+  color: #FFF;
+}

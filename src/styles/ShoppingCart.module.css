@@ -1,0 +1,41 @@
+.iconButton {
+  margin: auto;
+  border: 1px solid #0004ff;
+}
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  overflow: auto;
+  gap: 10px;
+  height: 100%;
+  margin: 0 0 10px 0;
+}
+
+.titleDrawer {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 16px auto 16px 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  border: 1px solid #5d5d5d;
+  background: #F7F7F7;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.actionsCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btnFinish {
+  margin: auto 16px 16px 16px;
+}
